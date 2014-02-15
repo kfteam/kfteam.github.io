@@ -3,7 +3,12 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-    <script>document.write("hello, world");</script>
-    <script>var name = prompt("what is your name?", "");</script>
+    <script>
+    var name = prompt("What is your name?", "");
+    document.write("Hello " + name);
+
+    var howfeel = prompt("How do you feel bad or good?", "");
+    document.write("<br/><br/> Oh you feel " + howfeel + "  I hope its good if its not lets make it good not bad :-) not :-(");
+    </script>
 </body>
 </html>
